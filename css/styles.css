@@ -1,0 +1,41 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+button {
+  margin-right: 10px;
+}
+
+h1 {
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 3rem;
+  font-weight: 900;
+  line-height: 1.5;
+  margin: 60px auto 40px auto;
+}
+
+#title {
+  /* font-family: 'Ubuntu', sans-serif; */
+  background-color: #ff4c68;
+}
+
+
+/*--------------- Classes --------------- */
+.container-fluid {
+  padding: 3% 15%;
+}
+
+.navbar-brand {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+.nav-item {
+  margin: auto 20px;
+}
+
+.rotated {
+  margin-top: 80px;
+  transform: rotate(30deg);
+}
