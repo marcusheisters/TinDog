@@ -9,6 +9,12 @@ h1 {
   line-height: 1.5;
 }
 
+h2 {
+  color: #fff;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+}
+
 h3 {
   font-family: 'Montserrat', sans-serif;
   font-weight: bold;
@@ -61,7 +67,7 @@ p {
   width: 60%;
 }
 
-/* fontawesome icons */
+/* Feature Section */
 .col-midsection {
   text-align: center;
   padding: 5%;
@@ -79,4 +85,30 @@ p {
 
 .i-midsection:hover {
   color: #ff4c68;
+}
+
+/* Testimonial Section */
+
+#testimonials {
+  background-color: #ef8172;
+  padding: 7% 15%;
+  text-align: center;
+  color: #fff;
+}
+
+.testimonial-image {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+#press {
+  background-color: #ef8172;
+  text-align: center;
+  padding-bottom: 3%;
+}
+
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 50px;
 }
