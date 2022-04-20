@@ -10,7 +10,6 @@ h1 {
 }
 
 h2 {
-  color: #fff;
   font-family: "Montserrat", sans-serif;
   font-weight: bold;
 }
@@ -30,10 +29,9 @@ h3 {
 p {
   color: #8f8f8f;
 }
-
 /*--------------- Classes --------------- */
 .container-fluid {
-  padding: 3% 15%;
+  padding: 3% 15% 10%;
 }
 
 /* Nav bar */
@@ -61,10 +59,18 @@ p {
 .download-button {
   margin: 5% 3% 5% 0;
 }
+/* Required due to bootstap 5 changes */
+.title-image-div {
+  position: relativ;
+  z-index: 0
+  padding:: 5%;
+}
 
 .title-image {
+  max-width: 60%;
   transform: rotate(25deg);
-  width: 60%;
+  position: absolute;
+  right: 30%;
 }
 
 /* Feature Section */
@@ -73,8 +79,12 @@ p {
   padding: 5%;
 }
 
+/* Feature section */
+
 #features {
+  background-color: white;
   padding: 7% 15%;
+  position: relative;
 }
 
 .i-midsection {
@@ -91,7 +101,6 @@ p {
 
 #testimonials {
   background-color: #ef8172;
-  padding: 7% 15%;
   text-align: center;
   color: #fff;
 }
@@ -102,13 +111,32 @@ p {
   margin: 20px;
 }
 
+.testimonial-text {
+  color: #fff;
+}
+
 #press {
   background-color: #ef8172;
   text-align: center;
   padding-bottom: 3%;
 }
 
+.carousel-item {
+  padding: 7% 15%;
+
+}
 .press-logo {
   width: 15%;
   margin: 20px 20px 50px;
+}
+
+
+/* Pricing Section  */
+
+#pricing {
+  padding: 100px;
+  text-align: center;
+}
+.pricing-column {
+  padding: 3% 2%;
 }
