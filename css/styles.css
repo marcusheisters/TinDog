@@ -62,15 +62,15 @@ p {
 /* Required due to bootstap 5 changes */
 .title-image-div {
   position: relativ;
-  z-index: 0
-  padding:: 5%;
+  padding: 5%;
 }
 
 .title-image {
-  max-width: 60%;
+  max-width: 40%;
+  max-height: 80%;
   transform: rotate(25deg);
   position: absolute;
-  right: 30%;
+  margin-left: 3%;
 }
 
 /* Feature Section */
