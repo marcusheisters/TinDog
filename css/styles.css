@@ -29,6 +29,7 @@ h3 {
 p {
   color: #8f8f8f;
 }
+
 /*--------------- Classes --------------- */
 .container-fluid {
   padding: 3% 15% 10%;
@@ -59,10 +60,10 @@ p {
 .download-button {
   margin: 5% 3% 5% 0;
 }
+
 /* Required due to bootstap 5 changes */
 .title-image-div {
   position: relativ;
-  padding: 5%;
 }
 
 .title-image {
@@ -80,7 +81,6 @@ p {
 }
 
 /* Feature section */
-
 #features {
   background-color: white;
   padding: 7% 15%;
@@ -90,7 +90,6 @@ p {
 .i-midsection {
   color: #ef8172;
   margin-bottom: 1rem;
-
 }
 
 .i-midsection:hover {
@@ -98,7 +97,6 @@ p {
 }
 
 /* Testimonial Section */
-
 #testimonials {
   background-color: #ef8172;
   text-align: center;
@@ -123,20 +121,40 @@ p {
 
 .carousel-item {
   padding: 7% 15%;
-
 }
+
 .press-logo {
   width: 15%;
   margin: 20px 20px 50px;
 }
 
-
 /* Pricing Section  */
-
 #pricing {
   padding: 100px;
   text-align: center;
 }
+
 .pricing-column {
   padding: 3% 2%;
+}
+
+@media (max-width: 995px) {
+  #title {
+    text-align: center;
+  }
+
+  .title-image-div {
+    position: static;
+    padding: 0;
+  }
+
+  .title-image {
+    position: static;
+    transform: rotate(0);
+    margin-left: 0;
+    max-width: 100%;
+    max-height: 100%;
+
+
+  }
 }
